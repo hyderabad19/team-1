@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Learning Curve</string>
+    <string name="login">Enter email</string>
+    <string name="pass">Enter your password</string>
+    <string name="Login">Login</string>
+    <string name="reg">Register</string>
+    <string name="regemail">Enter your email</string>
+    <string name="respass">Enter your Password</string>
+    <string name="regconf">Conform Pass</string>
+    <string name="reggg">Register</string>
+    <string name="log">Already have a account</string>
+    <string name="loginlogo">login page logo</string>
+    <string name="loginemail">Enter your email!.</string>
+    <string name="loginpass">Enter Your Password</string>
+    <string name="loginpagebtn">Login</string>
+    <string name="loginpagereg">Register!</string>
+    <string name="action_search_text">Search</string>
+    <string name="action_bar_settings">Account Settings</string>
+    <string name="actionbar_logout">Logout</string>
+    <string name="reg_confmpass">Conform Password</string>
+    <string name="reg_btn">Create Account</string>
+    <string name="reg_loginbtn">Already Have an Account?</string>
+    <string name="setupname">Enter your name.!</string>
+    <string name="Setup_btn">Save Settings</string>
+    <string name="addnewpostdec">Add Caption!!.</string>
+    <string name="newpostbtn">Add post</string>
+    <string name="savepost">Add post!.......</string>
+    <string name="regggg">Register</string>
+    <string name="logg">Login</string>
+    <string name="logink">Login</string>
+    <string name="regk">Register!</string>
+</resources>
