@@ -29,4 +29,15 @@
     <string name="logg">Login</string>
     <string name="logink">Login</string>
     <string name="regk">Register!</string>
+    <string name="acc_set">Account Settings</string>
+    <string name="log_out">Logout</string>
+    <string name="add">Aprove Request</string>
+    <string name="upload">Upload Content</string>
+    <string name="searchh">Search</string>
+    <string name="del">Delete Content</string>
+    <string name="logot">Logout</string>
+    <string name="update1">Update</string>
+    <string name="Viewcontent">Display Content</string>
+    <string name="redirect">View Content</string>
+    <string name="faf">Welcome Teacher!</string>
 </resources>

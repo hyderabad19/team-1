@@ -58,19 +58,27 @@ public class LoginAc extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                String loginemailtext=loginemail.getText().toString();
-                String loginpasstext=loginpassword.getText().toString();
+               final String loginemailtext=loginemail.getText().toString();
+              final  String loginpasstext=loginpassword.getText().toString();
 
-                if(!TextUtils.isEmpty(loginemailtext) && !TextUtils.isEmpty(loginpasstext)) {
+                if(loginemailtext.equals("Admin@gmail.com") && loginpasstext.equals("Admin@123"))
+                {
+                                      Intent admi=new Intent(LoginAc.this,Adminactivity.class);
+                                      startActivity(admi);
+                                      finish();
+                }
+                else if(!TextUtils.isEmpty(loginemailtext) && !TextUtils.isEmpty(loginpasstext)) {
 
                     loginprogbar.setVisibility(View.VISIBLE);
                     mauth.signInWithEmailAndPassword(loginemailtext,loginpasstext).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+
+
                         @Override
                         public void onComplete(@NonNull Task<AuthResult> task) {
                        if(task.isSuccessful())
                        {
 
-        Intent regi=new Intent(LoginAc.this,RegisterAc.class);
+        Intent regi=new Intent(LoginAc.this,MainActivity.class);
         startActivity(regi);
         finish();
 

@@ -63,7 +63,7 @@ public class RegisterAc extends AppCompatActivity {
                             public void onComplete(@NonNull Task<AuthResult> task) {
                                 if(task.isSuccessful())
                                 {
-                                    Intent set=new Intent(RegisterAc.this,SetupAct.class);
+                                    Intent set=new Intent(RegisterAc.this,SetupAcc.class);
                                     startActivity(set);
                                     finish();
                                 }

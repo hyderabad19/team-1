@@ -2,6 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.learningcurve">
 
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,7 +13,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SetupAct"></activity>
+        <activity android:name=".retreivedata"></activity>
+        <activity android:name=".UploadActivity" />
+        <activity android:name=".SetupAcc" />
+        <activity android:name=".Adminactivity" />
         <activity android:name=".RegisterAc" />
         <activity android:name=".LoginAc" />
         <activity android:name=".MainActivity">
